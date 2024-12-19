@@ -1,4 +1,9 @@
-﻿# Face + Iris Landmarks Real-time Detection in C++ (OpenCV + Tensorflow Lite)
+﻿# Face + Iris Landmarks Real-time Detection + Head pose estimation using face landmarks in C++ (OpenCV + Tensorflow Lite)
+# Demo
+<video controls width="600">
+  <source src="./demo/First_Demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## (Note: This guide is for Ubuntu, but the code should work fine on other OS, too)
 
