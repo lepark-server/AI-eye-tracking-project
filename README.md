@@ -1,10 +1,13 @@
 ﻿# Face + Iris Landmarks Real-time Detection + Head pose estimation using face landmarks in C++ (OpenCV + Tensorflow Lite)
 # Demo
 <video width="320" height="240" controls>
-  <source src="https://github.com/lepark-server/AI-eye-tracking-project/tree/main/demo/First_Demo.mp4" type="video/mp4">
+  <source src="https://github.com/user-attachments/assets/ed95260e-c87b-48a4-a1d6-5649d3e9b6b0" type="video/mp4">
 </video>
 
 ## (Note: This guide is for Ubuntu, but the code should work fine on other OS, too)
+
+
+
 
 This project runs on Mediapipe TFLite models without using Mediapipe framework. It can run at **30+ FPS** on **CPU**. 
 I perform the test on an I5 10th and the app takes about 5% CPU while running.
