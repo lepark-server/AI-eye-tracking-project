@@ -1,7 +1,7 @@
 ﻿# Face + Iris Landmarks Real-time Detection + Head pose estimation using face landmarks in C++ (OpenCV + Tensorflow Lite)
 # Demo
 <video width="320" height="240" controls>
-  <source src="demo/First_Demo.mp4" type="video/mp4">
+  <source src="https://github.com/lepark-server/AI-eye-tracking-project/tree/main/demo/First_Demo.mp4" type="video/mp4">
 </video>
 
 ## (Note: This guide is for Ubuntu, but the code should work fine on other OS, too)
