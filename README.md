@@ -1,9 +1,9 @@
 ﻿# Face + Iris Landmarks Real-time Detection in C++ (OpenCV + Tensorflow Lite)
 
-## (Note: This guide is for Windows OS, but the code should work fine on other OS, too)
+## (Note: This guide is for Ubuntu, but the code should work fine on other OS, too)
 
-This project runs on Mediapipe TFLite models without using Mediapipe framework. It can run at **90+ FPS** on **CPU**. 
-I perform the test on an AMD Ryzen 7 3700U Pro and the app takes about 5% CPU while running.
+This project runs on Mediapipe TFLite models without using Mediapipe framework. It can run at **30+ FPS** on **CPU**. 
+I perform the test on an I5 10th and the app takes about 5% CPU while running.
 For more information:
 * Face detection: https://google.github.io/mediapipe/solutions/face_detection.html
 * Face landmarks: https://google.github.io/mediapipe/solutions/face_mesh.html
@@ -15,23 +15,28 @@ For more information: https://www.tensorflow.org/lite/performance/gpu
 
 ## :computer: Requirements:
 
-### Hardware: Windows 10 64-bit
-
-### Visual Studio 2019
+### Hardware: Ubuntu 22.04
 
 ### CMake >= 3.16
 You can follow instructions at https://www.40tude.fr/compile-cpp-code-with-vscode-cmake-nmake/
 
 ### OpenCV (for Demo)
-<details>
-  <summary>How to install (Windows 64-bit)</summary>
+#### Install Prebuilt OpenCV
 
-1. Download and install pre-built binaries at https://sourceforge.net/projects/opencvlibrary/files/4.5.3/opencv-4.5.3-vc14_vc15.exe/download  
-2. Add `<opencv-install-folder>/build/x64/vc15/bin` and `<opencv-install-folder>/build/x64/vc15/lib` to PATH.
-</details>
-Since the prebuilt OPENCV libraries do not contain the 32-bit version, you will have to manually build it using cmake.
-https://docs.opencv.org/master/d3/d52/tutorial_windows_install.html
-  
+##### Step 1: Update and Upgrade System
+```bash
+sudo apt update
+sudo apt upgrade
+```
+##### Step 2: Install OpenCV Libraries
+```bash
+sudo apt install libopencv-dev
+pkg-config --modversion opencv4
+```
+##### Step 3: Verify Installation
+```bash
+pkg-config --modversion opencv4
+```
 ### Tensorflow Lite
 <details>
   <summary>How to use pre-built library</summary>
