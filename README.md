@@ -3,6 +3,7 @@
    <img src=https://github.com/lepark-server/AI-eye-tracking-project/blob/main/demo/Demo.png?raw=true"
    width="300">
 </div>
+
 ## (Note: This guide is for Ubuntu, but the code should work fine on other OS, too)
 
 This project runs on Mediapipe TFLite models without using Mediapipe framework. It can run at **30+ FPS** on **CPU**. 
